@@ -16,7 +16,7 @@ Spam mails not only clutter our inboxes but may also contain malicious links, ph
 - Utilize natural language techniques for robust feature extraction
 - Provide real-time results to users through an interactive UI
 
-## ✨ Key Features
+## Key Features
 
 - Classifies email content as **Spam** or **Not Spam**
 - Handles text cleaning using NLP techniques like:
