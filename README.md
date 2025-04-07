@@ -74,32 +74,6 @@ A message with suspicious language patterns, fake prizes, urgency — flagged as
 
 ---
 
-## Project Structure
-
-```bash
-Spam-Mail-Prediction/
-│
-├── app.py                    # Main Flask application
-├── main.py                   # Script to train & save the model
-├── mail_data.csv             # Dataset used for training
-├── spam_mail.pickle          # Serialized ML model (MultinomialNB)
-├── tfidf_vectorizer.pickle   # Serialized TF-IDF vectorizer
-├── Testing.ipynb             # Jupyter Notebook with EDA & testing
-│
-├── templates/
-│   └── index.html            # HTML template for the web interface
-│
-├── static/
-│   ├── css/
-│   │   └── main.css          # CSS styling for frontend
-│   └── js/
-│       └── scripts.js        # Optional JS scripts
-│
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project documentation
-├── .gitignore                # Git ignored files
-└── venv/                     # Python virtual environment (optional)
-
 ## Installation and Run Instructions 
 
 Follow these steps to get the project running on your local system:
@@ -140,4 +114,31 @@ To set up the project locally, follow these steps:
 4. Implement LSTM or BERT-based models for more contextual accuracy
 5.  Add an email parser to accept .eml files
 6. Mobile-friendly responsive UI
+
+## Project Structure
+
+```bash
+Spam-Mail-Prediction/
+│
+├── app.py                    # Main Flask application
+├── main.py                   # Script to train & save the model
+├── mail_data.csv             # Dataset used for training
+├── spam_mail.pickle          # Serialized ML model (MultinomialNB)
+├── tfidf_vectorizer.pickle   # Serialized TF-IDF vectorizer
+├── Testing.ipynb             # Jupyter Notebook with EDA & testing
+│
+├── templates/
+│   └── index.html            # HTML template for the web interface
+│
+├── static/
+│   ├── css/
+│   │   └── main.css          # CSS styling for frontend
+│   └── js/
+│       └── scripts.js        # Optional JS scripts
+│
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+├── .gitignore                # Git ignored files
+└── venv/                     # Python virtual environment (optional)
+
 
