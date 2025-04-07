@@ -10,10 +10,10 @@ Spam Mail Prediction is a machine learning-based web application designed to cla
 - **Suggestions**: Offers guidance for safe handling of emails.
 
 ## Screenshots
-### Input Example:
+### Output Example 1: Not a Spam Mail
 ![Input Screenshot](https://pplx-res.cloudinary.com/image/upload/v1744054089/user_uploads/JNFshdFWXRIawNh/Screenshot-2025-04-07-at-3.22.39-PM.jpg)
 
-### Output Example:
+### Output Example 2: It's a Spam Mail
 ![Output Screenshot](https://pplx-res.cloudinary.com/image/upload/v1744054089/user_uploads/tMzUJZkHnQEnqBd/Screenshot-2025-04-07-at-3.24.17-PM.jpg)
 
 ## Installation Instructions
