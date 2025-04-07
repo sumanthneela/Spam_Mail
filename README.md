@@ -76,7 +76,7 @@ A message with suspicious language patterns, fake prizes, urgency — flagged as
 
 ## Project Structure
 
-``bash
+```bash
 Spam-Mail-Prediction/
 │
 ├── app.py                    # Main Flask application
