@@ -18,25 +18,35 @@ Spam Mail Prediction is a machine learning-based web application designed to cla
 
 ![Screenshot 2025-04-07 at 3 24 17 PM](https://github.com/user-attachments/assets/0b03236e-713c-4d44-8230-50070aa27a54)
 
-## Installation and Run Instructions
+## Installation and Run Instructions 
 
 Follow these steps to get the project running on your local system:
 
-1. Clone the Repository
-git clone https://github.com/yourusername/Spam-Mail-Prediction.git
-cd Spam-Mail-Prediction
+1. **Clone the Repository**  
+   ```sh
+   git clone https://github.com/yourusername/Spam-Mail-Prediction.git
+   cd Spam-Mail-Prediction
+   ```
 
-3. Install Required Libraries
-It's best to use a virtual environment.
+2. **Install Dependencies**
+   It's best to use a virtual environment.
+   
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-pip install -r requirements.txt
+4. **Start the Flask App**  
+   ```sh
+   python app.py
+   ```
 
-3. Start the Flask App
-python app.py
+5. **Visit in Browser**
+     
+   ```sh
+   http://127.0.0.1:5000
+   ```
 
-5. Visit in Browser
-http://127.0.0.1:5000/predict
-
+---
 You should see the UI to enter email content and test the prediction.
 
 ## Future Enhancements
