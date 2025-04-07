@@ -76,22 +76,29 @@ A message with suspicious language patterns, fake prizes, urgency — flagged as
 
 ## Project Structure
 
-```bash
+``bash
 Spam-Mail-Prediction/
 │
 ├── app.py                    # Main Flask application
-├── preprocess.py             # Text cleaning & transformation logic
-├── spam_classifier.pkl       # Trained ML model
-├── vectorizer.pkl            # Fitted CountVectorizer object
+├── main.py                   # Script to train & save the model
+├── mail_data.csv             # Dataset used for training
+├── spam_mail.pickle          # Serialized ML model (MultinomialNB)
+├── tfidf_vectorizer.pickle   # Serialized TF-IDF vectorizer
+├── Testing.ipynb             # Jupyter Notebook with EDA & testing
 │
 ├── templates/
-│   └── index.html            # UI page for input/output
+│   └── index.html            # HTML template for the web interface
 │
-├── static/                   # For any styling or image assets
+├── static/
+│   ├── css/
+│   │   └── main.css          # CSS styling for frontend
+│   └── js/
+│       └── scripts.js        # Optional JS scripts
 │
-├── requirements.txt          # Required packages
-├── README.md                 # You're reading it!
-└── Dataset/                  # Raw or cleaned data (optional)
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+├── .gitignore                # Git ignored files
+└── venv/                     # Python virtual environment (optional)
 
 ## Installation and Run Instructions 
 
