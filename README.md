@@ -50,7 +50,7 @@ A message with suspicious language patterns, fake prizes, urgency — flagged as
 | Data Processing     | Pandas, NumPy |
 | NLP Tools           | NLTK (Stopwords, PorterStemmer, Tokenization) |
 | Vectorization       | CountVectorizer (Bag of Words model) |
-| ML Model            | Multinomial Naive Bayes |
+| ML Model            | Logistic Regression |
 | Web Framework       | Flask |
 | Frontend            | HTML5, CSS3 |
 | Model Deployment    | Localhost via Flask |
